@@ -7,6 +7,6 @@ resource "aws_instance" "my_instance" {
     key_name = "Practice-KP"
     availability_zone = "us-east-1a"
     root_block_device {
-        volume_size = 8
+        volume_size = 15
     }
 }
